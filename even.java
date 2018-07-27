@@ -7,18 +7,17 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-	 int a;
-      System.out.println("Please enter a number to check even or odd:");
-      Scanner sc = new Scanner(System.in);
-      a = sc.nextInt();
-
-      if(a % 2 == 0)
-      {
-         System.out.println("Entered number is an even number");
-      }
-      else
-      {
-         System.out.println("Entered number is an odd number");
-      }
+	int n;
+	Scanner sc=new Scanner (System.in);
+	n=sc.nextInt();
+	if(n>0)
+	{
+		if(n%2==0)
+	System.out.println("Even");
+	else
+	System.out.println("Odd");
 	}
-}
+	else
+	System.out.println("invalid");
+	}
+		}
